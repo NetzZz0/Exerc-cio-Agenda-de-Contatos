@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #fff;
+    padding: 80px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: rgb(56, 91, 206);
+    margin-bottom: 16px;
+}
+
+header img {
+    height: 50px;
+    margin-right: 8px;
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+}
+
+.container {
+    max-width: 580px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    margin-bottom: 10px;
+    display: flex;
+    width: 100%;
+}
+
+#nome {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 90px;
+}
+
+#telefone {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+
+form button {
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #b9b9b9;
+}
+
+table {
+    width:100%;
+}
+
+table th {
+    padding: 16px 0;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid rgba(12, 12, 12, 0.644);
+}
+
+table td {
+    padding: 16px 0;
+    text-align: left;
+    font-size: 14px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.466);
+}
